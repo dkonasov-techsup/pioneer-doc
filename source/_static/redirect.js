@@ -7,6 +7,11 @@ window.addEventListener("beforeunload", (event) => {
     const loc = url.pathname;
     const q = url.search.substr(1);
 
-    console.log(url)
+    if(loc == "pioneer-doc.readthedocs.io/ru/master/index.html"){
+      window.location.href = "docs.geoscan.ru/pioneer/";
+    }
+    else{
+      console.log('rdr error')
+    }
 
   });
