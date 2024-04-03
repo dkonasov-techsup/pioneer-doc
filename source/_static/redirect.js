@@ -1,2 +1,2 @@
 "use strict"
-window.location.href = "https://docs.geoscan.ru/pioneer/";
+window.location.href = "https://docs.geoscan.ru/pioneer";
